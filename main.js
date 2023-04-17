@@ -49,12 +49,12 @@ function DisplayTodos () {
 		input.type = 'checkbox';
 		input.checked = todo.done;
 		span.classList.add('bubble');
-		if (todo.category == 'personal') {
-			span.classList.add('personal');
-		} else if (todo.category == 'business') {
-			span.classList.add('business')
+		if (todo.category == 'high') {
+			span.classList.add('high');
+		} else if (todo.category == 'medium') {
+			span.classList.add('medium')
 		} else {
-			span.classList.add('recreation');
+			span.classList.add('low');
 		}
 		content.classList.add('todo-content');
 		actions.classList.add('actions');
