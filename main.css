@@ -247,3 +247,8 @@ input:checked ~ .bubble::after {
 	text-decoration: line-through;
 	color: var(--grey);
 }
+
+select {
+    font-size: 0.9rem;
+    padding: 2px 5px;
+}
